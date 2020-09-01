@@ -8,7 +8,7 @@ function init(){
 
             // 26.6.3. Bonus Missions
             // Display the astronauts sorted from most to least time in space.
-            json.sort(function(a,b){return a.hoursInSpace - b.hoursInSpace});
+            json.sort(function(a,b){return b.hoursInSpace - a.hoursInSpace});
 
 
             // Make the "Active: true" text green, for astronauts that are still active (active is true).
